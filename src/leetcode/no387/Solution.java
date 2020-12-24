@@ -1,5 +1,6 @@
 package leetcode.no387;
 
+
 class Solution {
     public int firstUniqChar(String s) {
         int[] pos = new int[26];
