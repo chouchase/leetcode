@@ -37,7 +37,7 @@ class Solution {
             buy[0] = buy[1];
             buy[1] = t;
         }
-        return Math.max(Math.max(sell[1][0],sell[1][1]),sell[ 1][2]);
+        return Math.max(Math.max(sell[0][0],sell[0][1]),sell[0][2]);
     }
 
     public static void main(String[] args) {
