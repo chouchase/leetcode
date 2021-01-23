@@ -1,5 +1,7 @@
 package datastruct.unionfind;
 
+import leetcode.no189.Solution;
+
 import java.util.Arrays;
 
 public class UnionFind {
@@ -36,4 +38,5 @@ public class UnionFind {
     public boolean find(int x, int y){
         return getParent(x) == getParent(y);
     }
+
 }
