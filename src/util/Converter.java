@@ -12,4 +12,9 @@ public class Converter {
         }
         return (int[])(arr);
     }
+
+    public static void main(String[] args) {
+        String s = "\n";
+        System.out.println(s.length());
+    }
 }

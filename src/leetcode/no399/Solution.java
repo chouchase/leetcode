@@ -1,7 +1,9 @@
 package leetcode.no399;
 
+/*
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+*/
 
 import java.util.*;
 
@@ -90,14 +92,14 @@ public class Solution {
             this.queries = queries;
         }
     }
-    public static void main(String[] args) throws JsonProcessingException {
-        ObjectMapper objectMapper = new ObjectMapper();
+    public static void main(String[] args) /*throws JsonProcessingException*/ {
+       /* ObjectMapper objectMapper = new ObjectMapper();
         String str = "{\"equations\":[[\"x1\",\"x2\"],[\"x2\",\"x3\"],[\"x3\",\"x4\"],[\"x4\",\"x5\"]]," +
                 "\"value\":[3.0,4.0,5.0,6.0]," +
                 "\"queries\":[[\"x1\",\"x5\"],[\"x5\",\"x2\"],[\"x2\",\"x4\"],[\"x2\",\"x2\"],[\"x2\",\"x9\"],[\"x9\",\"x9\"]]}";
         Domain domain = objectMapper.readValue(str, Domain.class);
         double[] res = new Solution().calcEquation(domain.getEquations(),domain.getValue(),domain.getQueries());
         System.out.println(Arrays.toString(res));
-
+*/
     }
 }

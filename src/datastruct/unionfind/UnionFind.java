@@ -21,6 +21,15 @@ public class UnionFind {
         }
         return parent[i] = getParent(parent[i]);
     }
+    public int getSetSize(){
+        int size = 0;
+        for(int i = 0; i < parent.length; i ++){
+            if(parent[i] == i){
+                size ++;
+            }
+        }
+        return size;
+    }
     public void union(int x, int y){
         int px = getParent(x);
         int py = getParent(y);
