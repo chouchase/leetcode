@@ -8,7 +8,7 @@ public class Solution {
     public List<Integer> addToArrayForm(int[] A, int K) {
         int carry = 0;
         int index = A.length - 1;
-        ArrayDeque<Integer> res = new ArrayList<>();
+        ArrayDeque<Integer> res = new ArrayDeque<>();
         while(index > 0){
             int t = A[index --] + K % 10 + carry;
             K /= 10;
